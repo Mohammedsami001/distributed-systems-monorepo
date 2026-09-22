@@ -1,0 +1,5 @@
+packages:
+  # Microservices and deployable applications
+  - 'apps/*'
+  # Shared internal libraries (logger, validation, redis-kit, etc.)
+  - 'packages/*'
