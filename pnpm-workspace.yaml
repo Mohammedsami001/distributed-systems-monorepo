@@ -3,3 +3,5 @@ packages:
   - 'apps/*'
   # Shared internal libraries (logger, validation, redis-kit, etc.)
   - 'packages/*'
+  # Common tools and configurations used across the monorepo
+  - 'tools/*'
