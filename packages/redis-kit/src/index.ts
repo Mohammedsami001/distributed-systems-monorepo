@@ -107,3 +107,5 @@ export async function closeRedisClient(client: Redis): Promise<void> {
     await client.quit();
   }
 }
+
+export * from './rate-limiter.js';
